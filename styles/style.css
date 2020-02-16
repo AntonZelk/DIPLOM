@@ -87,7 +87,6 @@ header .logo span{
 }
 header .menu {
 	position: relative;
-	margin-left: 32%;
 	top: -9px;
 }
 header .menu ul{
@@ -98,8 +97,6 @@ header .menu ul{
 }
 header .menu ul li a{
 	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
 	font-size: 12px;
 	color: #ffffff;
 }
@@ -145,24 +142,15 @@ header .btn a{
 }
 .container1 .con1{
 	background-image: url('../images/bmw-alpina-hd-wallpapers-75397-5408870.png');
-	background-size: cover;
-	background-repeat: no-repeat;
 	background-position: 20% 60%;
-	padding-top: 360px;
 }
 .container1 .con2{
 	background-image: url('../images/title2.png');
-	background-size: cover;
-	background-repeat: no-repeat;
 	background-position: 20% 60%;
-	padding-top: 360px;
 }
 .container1 .con3{
 	background-image: url('../images/title3.png');
-	background-size: cover;
-	background-repeat: no-repeat;
 	background-position: 20% 60%;
-	padding-top: 360px;
 }
 .container1 .center .content .txt{
 	font-family: 'Montserrat', sans-serif;
@@ -179,8 +167,6 @@ header .btn a{
 	margin-top: 19px;
 }
 .container1 .center .content p{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
 	font-size: 20px;
 	color: #ffffff;
 	margin-top: 17px;
@@ -258,8 +244,6 @@ header .btn a{
 	margin-top: 9px;
 }
 .container2 .window .string p{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
 	font-size: 12px;
 	color: #2c3966;
 }
@@ -284,8 +268,6 @@ header .btn a{
 	display: inline-block;
 	background-color: #2e3967;
 	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
 	font-size: 12px;
 	color: #ffffff;
 	width: 100%;
@@ -376,19 +358,6 @@ header .btn a{
 	background-color: #ffffff;
 }
 .container3 .center .cards .card .cont1:hover{
-	background-color: #ff4040;
-	margin-top: -3px;
-}
-.container3 .center .cards .card .cont2:hover{
-	background-color: #ff4040;
-	margin-top: -3px;
-}
-.container3 .center .cards .card .cont3:hover{
-	background-color: #ff4040;
-	margin-top: -3px;
-}
-.container3 .center .cards .card .cont4:hover{
-	background-color: #ff4040;
 	margin-top: -3px;
 }
 .container3 .center .cards .card .cont1 .txt1{
@@ -888,8 +857,6 @@ header .btn a{
 	}
 }
 @media (max-width:1235px){
-	header .menu ul{
-	}
 	.container1 .center .content .txt{
 		margin-left: 5%;
 	}
