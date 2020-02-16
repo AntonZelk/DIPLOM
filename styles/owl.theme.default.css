@@ -134,7 +134,7 @@
       -webkit-backface-visibility: visible;
       transition: opacity 200ms ease;
       border-radius: 5px; }
-    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    .owl-theme .owl-dots .owl-dot.active, .owl-theme .owl-dots .owl-dot:hover{
       background: #869791; }
 
       .raz .owl-dots .owl-dot:nth-child(1){
