@@ -298,7 +298,11 @@ header .btn a{
 .container3 .center .cards {
 	display: grid;
 	width: 100%;
+<<<<<<< HEAD
 	grid-template-columns: 2fr 1fr 1fr;
+=======
+	grid-template-columns: 2fr 280px 280px;
+>>>>>>> commit 5
 	grid-template-rows: 1fr 1fr;
 	grid-column-gap: 30px;
 	grid-row-gap: 30px;
@@ -357,6 +361,34 @@ header .btn a{
 .container3 .center .cards .card .cont1{
 	background-color: #ffffff;
 }
+<<<<<<< HEAD
+=======
+.container3 .center .cards .card .last1{
+	background-image: url('../images/CARD3.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 194px;
+}
+.container3 .center .cards .card .last2{
+	background-image: url('../images/CARD4.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 194px;
+}
+.container3 .center .cards .card .last3{
+	background-image: url('../images/CARD5.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 194px;
+}
+.container3 .center .cards .card .last4{
+	background-image: url('../images/CARD2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 194px;
+}
+
+>>>>>>> commit 5
 .container3 .center .cards .card .cont1:hover{
 	margin-top: -3px;
 }
@@ -705,7 +737,11 @@ header .btn a{
 	font-size: 10px;
 	 color: #999999;
 	 margin-top: 55px;
+<<<<<<< HEAD
 	 margin-bottom: 596px;
+=======
+	 margin-bottom: 100px;
+>>>>>>> commit 5
 }
 .container7 .center .bot p span{
 	font-family: 'Montserrat', sans-serif;
@@ -768,7 +804,19 @@ header .btn a{
 	}
   }
  
+<<<<<<< HEAD
 
+=======
+  @media (max-width:1600px){
+	.container5 .galery{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.container5 h2{
+		margin-left: 7%;
+	}
+  }
+>>>>>>> commit 5
 @media (max-width:1440px){
 	header .menu{
 		display: none;
@@ -776,7 +824,11 @@ header .btn a{
 	header .burger{
 		display: flex;
 		position: absolute;
+<<<<<<< HEAD
 		right: 3%;
+=======
+		right: 5%;
+>>>>>>> commit 5
 		top: 32px;
 		cursor: pointer;
 		width: 60px;
@@ -832,7 +884,11 @@ header .btn a{
 	header .btn{
 		position: absolute;
 		top: 32px;
+<<<<<<< HEAD
 		right: 5%;
+=======
+		right: 7%;
+>>>>>>> commit 5
 	}
 	header .logo img{
 		margin: 0 0;
@@ -872,8 +928,25 @@ header .btn a{
 	.container3 .center{
 		margin: 0 auto;
 	}
+<<<<<<< HEAD
 	.container3 .center .cards{
 		grid-template-columns: 1fr 1fr 1fr 1fr;
+=======
+	.container2 .window .string:nth-child(1){
+		margin-left: 10%;
+	}
+	.container2 .window .string:nth-child(2){
+		margin-right: 10%;
+	}
+	.container2 .window .btn{
+		margin-right: 21.45%;
+	}
+	.container2 .window .string:nth-child(3){
+		margin-left: 21.45%;
+	}
+	.container3 .center .cards{
+		grid-template-columns: 1fr 280px 280px 1fr;
+>>>>>>> commit 5
 		grid-template-rows: 1fr 1fr 1fr 1fr;
 		grid-column-gap: 10px;
 		grid-row-gap: 20px;
@@ -923,6 +996,7 @@ header .btn a{
 	.container7 .center .bot .icon{
 		margin-left: 10%;
 	}
+<<<<<<< HEAD
 	.container7 .center .bot p{
 		margin-bottom: 300px;
 	}
@@ -933,12 +1007,22 @@ header .btn a{
 	}
 	header .btn{
 		right: 10%;
+=======
+}	
+@media (max-width:992px){
+	header .logo{
+		margin-left: 5%;
+	}
+	header .btn{
+		right: 12%;
+>>>>>>> commit 5
 	}
 	.container1 h1{
 		margin-right: 10%;
 		font-size: 35px;
 	}
 	.container2 .window {
+<<<<<<< HEAD
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr 1fr 0.5fr;
 	}
@@ -971,6 +1055,44 @@ header .btn a{
 	.container2 .window .btn{
 		grid-column: 3/5;
 		grid-row: 4/5;
+=======
+		grid-template-columns:5% 1fr 1fr 1fr 1fr 5%;
+		grid-template-rows: 1fr 1fr 1fr 1fr 0.5fr;
+		grid-column-gap: 0;
+	}
+	.container2 .window .string:nth-child(1){
+		grid-column: 2/6;
+		margin-top: 22px;
+		margin-left: 0;
+	}
+	.container2 .window .string:nth-child(2){
+		grid-column: 2/6;
+		grid-row: 2/3;
+		margin-right: 0;
+	}
+	.container2 .window .string:nth-child(3){
+		grid-column: 2/4;
+		grid-row: 3/4;
+		margin-left: 0;
+		margin-right: 5%;
+	}
+	.container2 .window .string:nth-child(4){
+		grid-column: 4/6;
+		grid-row: 3/4;
+		margin-left: 5%;
+	}
+	.container2 .window .string:nth-child(5){
+		grid-column: 2/4;
+		grid-row: 4/5;
+		margin-left: 0;
+		margin-right: 5%;
+	}
+	.container2 .window .btn{
+		grid-column: 4/6;
+		grid-row: 4/5;
+		margin-left: 5%;
+		margin-right: 0;
+>>>>>>> commit 5
 	}
 	.container2 .window .string:nth-child(2){
 		margin-top: 22px;
@@ -980,12 +1102,31 @@ header .btn a{
 	}
 	.container5 h2{
 		text-align: center;
+<<<<<<< HEAD
+=======
+		margin-left: 0;
+>>>>>>> commit 5
 	}
 	.container5 .center{
 		margin: 0;
 	}
+<<<<<<< HEAD
 	.container7 .center .top{
 		flex-wrap: wrap;
+=======
+	.container5 .galery div{
+		flex-basis: 50%;
+	}
+	.container6 .center .top{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	
+	.container7 .center .top{
+		flex-wrap: wrap;
+		margin-left: 5%;
+		margin-right: 5%;
+>>>>>>> commit 5
 	}
 	.container7 .center .top div{
 		width: 200px;
@@ -1001,7 +1142,11 @@ header .btn a{
 		margin-bottom: 30px;
 	}
 	.container7 .center .bot p{
+<<<<<<< HEAD
 		margin-bottom: 200px;
+=======
+		margin-bottom: 100px;
+>>>>>>> commit 5
 	}
 	
 	
@@ -1020,6 +1165,7 @@ header .btn a{
 		margin-bottom: 190px;
 	}
 	.container3 .center .cards{
+<<<<<<< HEAD
 		grid-template-columns: 0.2fr 1fr 1fr 1fr 0.2fr;
 		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 		grid-column-gap: 10px;
@@ -1047,12 +1193,52 @@ header .btn a{
 	.container3{
 		padding-bottom: 50px;
 	}
+=======
+		grid-template-columns: 5% 1fr 300px 1fr 5%;
+		grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+		grid-column-gap: 0;
+	}
+	.container3 .center .cards .card1{
+		grid-column: 2/5;
+		grid-row: 1/2;
+	}
+	.container3 .center .cards .card:nth-child(2){
+		grid-column: 3/4;
+		grid-row: 2/3;
+	}
+	.container3 .center .cards .card:nth-child(3){
+		grid-column: 3/4;
+		grid-row: 3/4;
+	}
+	.container3 .center .cards .card:nth-child(4){
+		grid-column: 3/4;
+		grid-row: 4/5;
+	}
+	.container3 .center .cards .card:nth-child(5){
+		grid-column: 3/4;
+		grid-row: 5/6;
+	}
+	.container3{
+		padding-bottom: 50px;
+	}
+	.container4 .cars .car .txt1{
+		margin-left: 11%;
+		margin-right: 11%;
+	}
+	.container4 .cars .car .txt2 p:nth-child(2){
+		margin-right: 11%;
+	}
+>>>>>>> commit 5
 	.container5 .galery div h4{
 		margin-top: 15vh;
 	}
 	.container5 .galery div p{
 		margin-bottom: 15vh;
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> commit 5
 	.container6 .center .top{
 		margin-left: 5%;
 		margin-right: 5%;
@@ -1064,9 +1250,16 @@ header .btn a{
 		font-size: 6px;
 	}
 	.container7 .center .bot .icon{
+<<<<<<< HEAD
 		margin-left: 0;
 		display: flex;
     justify-content: space-around;
+=======
+		display: flex;
+	justify-content: space-between;
+	margin-left: 5%;
+	margin-right: 5%;
+>>>>>>> commit 5
 	}
 	.container7 .center .bot{
 		flex-direction: column;
@@ -1079,9 +1272,12 @@ header .btn a{
 	.container7 .center .bot svg{
 		margin-right: 0;
 	}
+<<<<<<< HEAD
 	.container7 .center .bot p{
 		margin-bottom: 150px;
 	}
+=======
+>>>>>>> commit 5
 	
 }
 @media (max-width:576px){
@@ -1121,36 +1317,62 @@ header .btn a{
 	}
 	.container2 .window .string:nth-child(1){
 		grid-column: 1/5;
+<<<<<<< HEAD
 		margin-left: 35px;
 		margin-right: 35px;
+=======
+		margin-left: 5%;
+		margin-right: 5%;
+>>>>>>> commit 5
 	}
 	.container2 .window .string:nth-child(2){
 		grid-column: 1/5;
 		grid-row: 2/3;
+<<<<<<< HEAD
 		margin-left: 35px;
 		margin-right: 35px;
+=======
+		margin-left: 5%;
+		margin-right: 5%;
+>>>>>>> commit 5
 	}
 	.container2 .window .string:nth-child(3){
 		grid-column: 1/5;
 		grid-row: 3/4;
+<<<<<<< HEAD
 		margin-left: 35px;
 		margin-right: 35px;
+=======
+		margin-left: 5%;
+		margin-right: 5%;
+>>>>>>> commit 5
 	}
 	.container2 .window .string:nth-child(4){
 		grid-column: 1/5;
 		grid-row: 4/5;
+<<<<<<< HEAD
 		margin-right: 35px;
 		margin-left: 35px;
+=======
+		margin-right: 5%;
+		margin-left: 5%;
+>>>>>>> commit 5
 	}
 	.container2 .window .string:nth-child(5){
 		grid-column: 1/5;
 		grid-row: 5/6;
+<<<<<<< HEAD
 		margin-left: 35px;
 		margin-right: 35px;
+=======
+		margin-left: 5%;
+		margin-right: 5%;
+>>>>>>> commit 5
 	}
 	.container2 .window .btn{
 		grid-column: 1/5;
 		grid-row: 6/7;
+<<<<<<< HEAD
 		margin-left: 35px;
 		margin-right: 35px;
 		margin-top: 22px;
@@ -1159,6 +1381,36 @@ header .btn a{
 		margin-top: 50px;
 	}
 
+=======
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 22px;
+	}
+	.container3 .center .cards .card1 .top p:nth-child(2){
+		margin-right: 20px;
+	}
+	.container3 .center .cards .card1 .top p:nth-child(1){
+		margin-left: 20px;
+	}
+	.container4 .cars .car .txt1{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.container4 .cars .car .txt2 p:nth-child(2){
+		margin-right: 5%;
+	}
+	.container5 h2{
+		margin-top: 50px;
+	
+	}
+	.container5 .galery{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.container5 .galery div{
+		flex-basis: 90%;
+	}
+>>>>>>> commit 5
 	.container6 .center .top .name h2{
 	  font-size: 20px;
 	  margin-top: 50px;
@@ -1197,9 +1449,54 @@ header .btn a{
 	.container7 .center .bot p{
 		margin-bottom: 100px;
 	}
+<<<<<<< HEAD
 	
 }	
 
+=======
+	.container7 .center .top div:nth-child(3){
+		margin-left: 0;
+	}
+	
+}	
+@media(max-width: 460px){
+	.container3 .center .cards{
+		grid-template-columns: 5%  auto  5%;
+		grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+		grid-column-gap: 0;
+	}
+	.container3 .center .cards .card1{
+		grid-column: 2/3;
+		grid-row: 1/2;
+	}
+	.container3 .center .cards .card:nth-child(2){
+		grid-column: 2/3;
+		grid-row: 2/3;
+	}
+	.container3 .center .cards .card:nth-child(3){
+		grid-column: 2/3;
+		grid-row: 3/4;
+	}
+	.container3 .center .cards .card:nth-child(4){
+		grid-column: 2/3;
+		grid-row: 4/5;
+	}
+	.container3 .center .cards .card:nth-child(5){
+		grid-column: 2/3;
+		grid-row: 5/6;
+	}
+	.container6 .center .buttons{
+		justify-content: space-between;
+	}
+	.container6 .center .buttons .button:nth-child(2){
+		margin-right: 5%;
+		margin-left: 0;
+	}
+	.container6 .center .buttons .button:nth-child(1){
+		margin-left: 5%;
+	}
+}
+>>>>>>> commit 5
 
 
 

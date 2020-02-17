@@ -170,6 +170,15 @@
         margin-left: -212px;
       }
 
+<<<<<<< HEAD
+=======
+@media(max-width: 992px){
+  .owl-theme .owl-nav{
+    margin-left: 5%;
+    width: 90%;
+  }
+}
+>>>>>>> commit 5
 
 
 @media(max-width: 576px){
@@ -186,10 +195,17 @@
   .dva .owl-dots{
     margin-left: -150px;
   }
+<<<<<<< HEAD
+=======
+   
+>>>>>>> commit 5
 }      
 
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> commit 5
       
